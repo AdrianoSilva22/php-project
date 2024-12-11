@@ -18,6 +18,6 @@ class Home extends Page
             'description' => $obOrganization->description,
             'site' => $obOrganization->site
         ]);
-        return parent::getPage('helo', $content);
+        return parent::getPage('heloo', $content);
     }
 }
